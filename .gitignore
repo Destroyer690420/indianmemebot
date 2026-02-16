@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+processed_ids.txt
+yt_daily_count.txt
+public/
