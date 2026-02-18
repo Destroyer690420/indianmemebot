@@ -2,7 +2,7 @@ name: 🤖 Auto-Post Pipeline
 
 on:
   schedule:
-    - cron: '0 * * * *'        # Every hour
+    - cron: '0 */3 * * *'        # Every hour
   workflow_dispatch:             # Manual trigger for testing
 
 permissions:
